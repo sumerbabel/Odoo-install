@@ -19,13 +19,13 @@ ADD_SSL = "False"
 SSL_PEM_KEY = "False"
 SSL_PRV_KEY = "False"
 #Set the default Odoo port (you still have to use -c /etc/odoo-server.conf for example to use this.)
-OE_PORT="8012"
+OE_PORT="8069"
 SERVER_NAME = "localhost" # rosa.karizma.com || 189.17.16.15
 #Choose the Odoo version which you want to install. For example: 10.0, 9.0, 8.0, 7.0 or saas-6. When using 'trunk' the master version will be installed.
 #IMPORTANT! This script contains extra libraries that are specifically needed for Odoo 10.0
 OE_VERSION="12.0"
 # Set this to True if you want to install Odoo 10 Enterprise!
-IS_ENTERPRISE="True"
+IS_ENTERPRISE="False"
 #set the superadmin password
 OE_SUPERADMIN="MJID@ADMIN"
 OE_CONFIG="${OE_USER}-server"
