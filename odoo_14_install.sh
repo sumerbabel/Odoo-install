@@ -12,7 +12,7 @@ OE_HOME_EXT="/opt/$OE_USER/odoo-server"
 #Set to true if you want to install it, false if you don't need it or have it already installed.
 INSTALL_WKHTMLTOPDF="True"
 #Set to true if you want to install it, false if you don't need it or have it already installed.
-INSTALL_POSTGRESQL="False"
+INSTALL_POSTGRESQL="True"
 CREATE_USER_POSTGRESQL="True"
 INSTALL_NGINX = "False"
 ADD_SSL = "False"
@@ -25,7 +25,7 @@ SERVER_NAME = "localhost" # test.odoo.com || 50.17.16.15
 #IMPORTANT! This script contains extra libraries that are specifically needed for Odoo 10.0
 OE_VERSION="14.0"
 # Set this to True if you want to install Odoo 10 Enterprise!
-IS_ENTERPRISE="True"
+IS_ENTERPRISE="False"
 #set the superadmin password
 OE_SUPERADMIN="ODOO@ADMIN"
 OE_CONFIG="${OE_USER}-server"
